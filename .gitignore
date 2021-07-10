@@ -1,5 +1,22 @@
-node_modules
-.DS_Store
+### react ###
+.DS_*
+*.log
+logs
+**/*.backup.*
+**/*.back.*
+
 dist
 dist-ssr
 *.local
+
+node_modules
+bower_components
+
+*.sublime*
+
+psd
+thumb
+sketch
+
+### StorybookJs ###
+storybook-static/

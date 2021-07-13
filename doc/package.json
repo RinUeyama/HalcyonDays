@@ -1,0 +1,17 @@
+{
+  "name": "doc",
+  "version": "1.0.0",
+  "description": "Documents of Halcyon Days",
+  "main": "index.js",
+  "repository": "https://github.com/RinUeyama/HalcyonDays",
+  "author": "RinUeyama",
+  "license": "MIT",
+  "devDependencies": {
+    "vitepress": "^0.15.6"
+  },
+  "scripts": {
+    "d:dev": "vitepress dev docs",
+    "d:build": "vitepress build docs",
+    "d:serve": "vitepress serve docs"
+  }
+}
